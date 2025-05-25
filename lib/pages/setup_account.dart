@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:recytech_installer/pages/success_page.dart';
 import 'package:recytech_installer/utils/system.dart';
 
 class SetupAccountPage extends StatefulWidget {
@@ -30,6 +31,10 @@ class _SetupAccountPageState extends State<SetupAccountPage> {
 
       bool r = await System().userChange(username, password);
       if (r) {
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (_) => const InstallSuccessPage()),
+        );
       } else {
         ScaffoldMessenger.of(
           context,
