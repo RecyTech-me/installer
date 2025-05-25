@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:recytech_welcome/pages/home.dart';
+import 'package:recytech_installer/pages/home.dart';
 
 void main() {
   runApp(const RecyTechApp());

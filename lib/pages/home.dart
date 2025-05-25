@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:recytech_welcome/pages/setup_account.dart';
+import 'package:recytech_installer/pages/setup_account.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});

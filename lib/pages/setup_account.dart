@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:recytech_welcome/utils/system.dart';
+import 'package:recytech_installer/utils/system.dart';
 
 class SetupAccountPage extends StatefulWidget {
   const SetupAccountPage({super.key});
