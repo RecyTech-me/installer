@@ -1,3 +1,3 @@
-# recytech_welcome
+# RecyTech installer
 
-A new Flutter project.
+
